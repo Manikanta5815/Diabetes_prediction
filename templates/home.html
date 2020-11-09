@@ -1,0 +1,39 @@
+<html>
+    <style>
+        #exam {
+          border: 2px solid black;
+          padding: 25px;
+          background: url("https://cached.imagescaler.hbpl.co.uk/resize/scaleWidth/800/cached.offlinehbpl.hbpl.co.uk/news/PGH/8DDAF7E1-C0AA-7DE0-673D523AA08045DA.jpg");
+          background-repeat: no-repeat;
+          background-size:1550px 750px;
+        }
+        </style>
+            
+            <body bgcolor=#d4a3ae id="exam">
+    <body bgcolor=#d4a3ae>
+
+        <center>
+
+        <h1> Diabetes Prediction </h1><br>
+        <form method="POST", action="{{url_for('home')}}">
+        Prg: <input type="number" name="fir"/><br/>
+        Glucose: <input type="number" name="sec"/><br/>
+        BP: <input type="number" name="thr"/><br/>
+        Skin_Thickness: <input type="number" name="fou"/><br/>
+        Insulin: <input type="number" name="fif"/><br/>
+        BMI: <input type="number" name="six"/><br/>
+        Diabetes Pedigree Fun: <input type="number" name="sev"/><br/>
+        Age: <input type="number" name="eig"/><br/>
+           
+            <input type="submit" , value='predict!' >
+        </form>
+
+      
+        
+    </center>
+
+    </body>
+</html>
+
+
+        
